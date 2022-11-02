@@ -23,6 +23,13 @@ main{
 }
 header{
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-btn{
+    padding: 1px 15px;
 }
 
 footer{
@@ -30,7 +37,7 @@ footer{
 }
 
 .grid{
-    background-color: pink;
+    /* background-color: pink; */
     width: 400px;
     height: 400px;
     position: absolute;
@@ -43,6 +50,8 @@ footer{
 }
 
 .cell-grid{
+    text-align: center;
+    line-height: 40px;
     width: 40px;
     height: 40px;
     border: 1px solid black;
