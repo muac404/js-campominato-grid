@@ -6,7 +6,10 @@
     margin: 0;
 }
 
+/* MAIN */
+
 body{
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,6 +18,7 @@ body{
 main{
     flex-grow: 1;
     background-color: #7fffd4;
+    position: relative;
     
 }
 header{
@@ -23,4 +27,23 @@ header{
 
 footer{
     padding: 10px;
+}
+
+.grid{
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.cell-grid{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
 }
