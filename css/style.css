@@ -28,8 +28,12 @@ header{
     align-items: center;
 }
 
+h5{
+    font-weight: 500;
+}
+
 .play-btn{
-    padding: 1px 15px;
+    padding: 1px 20px;
     cursor: pointer;
 }
 
@@ -52,6 +56,7 @@ footer{
 
 .cell-grid{
     text-align: center;
+    font-size: 14px;
     line-height: 40px;
     width: 40px;
     height: 40px;
@@ -62,3 +67,12 @@ footer{
 .blue-bg{
     background-color: lightblue;
 }
+.left-sidebar{
+    display: flex;
+    align-items: center;
+}
+.left-sidebar img{
+    
+    max-width: 60px;
+}
+
